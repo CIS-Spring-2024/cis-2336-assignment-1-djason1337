@@ -1,0 +1,122 @@
+/* Set the font family and reset margin and padding for the entire page */
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+/* Style the main content area with a light gray background */
+main{
+    background-color: #f2f2f2;
+}
+/* Style the header with a dark red background, centered text, and a subtle shadow */
+  header {
+    background-color: #690000;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  /* Style buttons with a gradient effect on hover and active state */
+  button {
+    text-decoration: none;
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #fa1f1f;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  button:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #fa1f1f;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+  }
+  
+  button:active {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #fa1f1f;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
+
+  /* Center align the entire page content */
+    body{
+    text-align: center;
+  }
+
+
+  /* Style the main heading */
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 25px;
+  }
+  /* Style the "ME" class with white color */
+  .ME{
+    
+    color: #ffffff;
+  }
+/* Add hover effect to links */
+  a:hover{
+    color: rgb(153, 153, 153);
+  }
+/* Style subtitles with a slightly muted color */
+  .subtitle {
+    font-size: 1.2em;
+    color: #888;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  h2:hover{
+    color: #fa1f1f;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  img {
+    border-radius: 50px; 
+  }
+/* Add hover effect to images */
+  img:hover{
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.05);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  /* Style the footer with white text and a dark red background */
+  footer {
+    color: #ffffff;
+    background-color: #690000;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.5);
+  }
+  
+
